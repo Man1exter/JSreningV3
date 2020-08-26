@@ -75,8 +75,13 @@ input.addEventListener("focus", (e) => {
  e.target.classList.add("active");
 })
 input.addEventListener("blur", (e) => {
-    e.target.classList.remove("active");
+e.target.classList.remove("active");
 })
+
+
+//FAT ARROW WITHOUT THIS ONLY FUNCTION()//----------------------------
+//IMPORTANT ///-------------------------------------------------------
+
 
 //-------------complete exercises thanks samurai / / / // / / **
 //---------------------------------------------------------------------
