@@ -57,7 +57,17 @@ window.addEventListener("keydown", changeColor)
 
 
 const div = document.querySelector(".message");
-const 
+const input = document.getElementById("pass");
 
 const password = "elephant";
-const message = "give me a circle";
+const message = "Give me a circle";
+
+input.addEventListener("input", (e) => {
+    if(password === e.target.value){
+        div.textContent = message;
+    } else {
+        div.textContent = "Wrong password";
+    }
+})
+
+//focus / blur  // / // / // / / // / /   -- - - - -- - - -- -- - - -- - -
