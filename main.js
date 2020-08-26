@@ -60,7 +60,7 @@ const div = document.querySelector(".message");
 const input = document.getElementById("pass");
 
 const password = "elephant";
-const message = "Give me a circle";
+const message = "Give me a circle ~ elephant";
 
 input.addEventListener("input", (e) => {
     if(password === e.target.value){
@@ -71,3 +71,9 @@ input.addEventListener("input", (e) => {
 })
 
 //focus / blur  // / // / // / / // / /   -- - - - -- - - -- -- - - -- - -
+input.addEventListener("focus", (e) => {
+ e.target.classList.add("active");
+})
+input.addEventListener("blur", (e) => {
+    e.target.classList.remove("active");
+})

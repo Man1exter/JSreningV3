@@ -14,3 +14,7 @@ div{
     margin: 20px;
     background-color: orange;
 }
+.active{
+    background-color: black;
+    color: yellow;
+}
