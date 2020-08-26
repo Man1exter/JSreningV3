@@ -49,3 +49,15 @@ switch(e.keyCode){
 
 }
 window.addEventListener("keydown", changeColor)
+
+
+//---------------password password * * * ** * -                  ------
+//----------------------password password  - -- - -- -  //
+
+
+
+const div = document.querySelector(".message");
+const 
+
+const password = "elephant";
+const message = "give me a circle";
