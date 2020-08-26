@@ -77,3 +77,6 @@ input.addEventListener("focus", (e) => {
 input.addEventListener("blur", (e) => {
     e.target.classList.remove("active");
 })
+
+//-------------complete exercises thanks samurai / / / // / / **
+//---------------------------------------------------------------------
