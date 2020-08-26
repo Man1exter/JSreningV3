@@ -72,7 +72,7 @@ input.addEventListener("input", function(e)  {
 
 //focus / blur  // / // / // / / // / /   -- - - - -- - - -- -- - - -- - -
 input.addEventListener("focus", function(e)  {
- this.classList.add("active");
+this.classList.add("active");
 })
 input.addEventListener("blur", function(e) {
 this.classList.remove("active");

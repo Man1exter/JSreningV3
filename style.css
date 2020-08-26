@@ -13,8 +13,24 @@ div{
     font-size: 40px;
     margin: 20px;
     background-color: orange;
+    cursor: pointer;
+    transition: .3s linear;
+}
+div:hover{
+    background-color: blue;
+    color: white;
 }
 .active{
     background-color: black;
     color: yellow;
+}
+input{
+    border: 3px solid black;
+    border-radius: 5px;
+}
+label{
+    transition: .3s linear;
+}
+label:hover{
+    color: yellow
 }
