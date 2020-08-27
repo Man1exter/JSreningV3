@@ -64,14 +64,14 @@ const messages = ["Give me a circle ~ elephant", "Go to the party", "fake coVid1
 
 
 
-input.addEventListener("input", function(e)  {
+input.addEventListener("input", (e) => {
     div.textContent = '';
-    const text = this.value;
+    const text = e.target.value;
 
-passwords.forEach(password, index => {
+passwords.forEach((password, index) => {
     if(password === text){
         div.textContent = messages[index];
-        this.value = '';
+        e.target.value = '';
     }
 })
 
