@@ -60,7 +60,7 @@ const div = document.querySelector(".message");
 const input = document.getElementById("pass");
 
 const passwords= ["elephant", "duck", "tv"];
-const messages = ["Give me a circle ~ elephant", "Go to the party", "fake coVid19"];
+const messages = ["Give me a circle ~ elephant", "Go to the party", "Fake CoVid19"];
 
 
 
