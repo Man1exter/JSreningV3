@@ -59,18 +59,19 @@ window.addEventListener("keydown", changeColor)
 const div = document.querySelector(".message");
 const input = document.getElementById("pass");
 
-const passwords= ["elephant","duck","tv"];
-const messages = ["Give me a circle ~ elephant","Go to the party", "fake coVid19"];
+const passwords= ["elephant", "duck", "tv"];
+const messages = ["Give me a circle ~ elephant", "Go to the party", "fake coVid19"];
 
 
 
 input.addEventListener("input", function(e)  {
-    const text = e.target.value;
+    div.textContent = '';
+    const text = this.value;
 
 passwords.forEach(password, index => {
     if(password === text){
         div.textContent = messages[index];
-        e.target.value = '';
+        this.value = '';
     }
 })
 
