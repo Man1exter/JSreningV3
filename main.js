@@ -59,15 +59,11 @@ window.addEventListener("keydown", changeColor)
 const div = document.querySelector(".message");
 const input = document.getElementById("pass");
 
-const password = "elephant";
-const message = "Give me a circle ~ elephant";
+const passwords= ["elephant","duck","tv"];
+const messages = ["Give me a circle ~ elephant","Go to the party", "fake coVid19"];
 
 input.addEventListener("input", function(e)  {
-    if(password === this.value){
-        div.textContent = message;
-    } else {
-        div.textContent = "Wrong password";
-    }
+    const text = e.target.value;
 })
 
 //focus / blur  // / // / // / / // / /   -- - - - -- - - -- -- - - -- - -
@@ -78,6 +74,11 @@ input.addEventListener("blur", function(e) {
 this.classList.remove("active");
 })
 
+//if(password === this.value){
+    //div.textContent = message;
+//} else {
+    //div.textContent = "Wrong password";
+//}
 
 //FAT ARROW WITHOUT THIS ONLY FUNCTION()//----------------------------
 //IMPORTANT ///-------------------------------------------------------
