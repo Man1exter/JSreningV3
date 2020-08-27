@@ -17,7 +17,7 @@ div{
     transition: .3s linear;
 }
 div:hover{
-    background-color: rgb(17, 17, 238);
+    background-color: rgb(12, 12, 236);
     color: white;
 }
 .active{

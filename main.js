@@ -33,7 +33,7 @@ const changeColor = (e) => {
 
 switch(e.keyCode){
     case 38:
-        document.body.style.backgroundColor = `rgb(${red < 256 ? ++red : red}, ${green < 255 ? ++green : green}, ${blue < 256 ? ++blue : blue})`;
+        document.body.style.backgroundColor = `rgb(${red < 255 ? ++red : red}, ${green < 255 ? ++green : green}, ${blue < 255 ? ++blue : blue})`;
         break;
 
     case 40:
