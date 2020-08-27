@@ -68,13 +68,19 @@ input.addEventListener("input", function(e)  {
     div.textContent = '';
     const text = this.value;
 
-passwords.forEach(function (password, index)  {
-    if(password === text){
+// passwords.forEach(function (password, index)  {
+//     if(password === text){
+//         div.textContent = messages[index];
+//        this.value = '';
+//     }
+// })
+
+      passwords.forEach(function(password, index){
+      if(password === text){
         div.textContent = messages[index];
-       this.value = '';
+        this.value = '';
     }
 })
-
 
 
 })
