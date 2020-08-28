@@ -30,7 +30,11 @@ input{
 }
 label{
     transition: .3s linear;
+    
 }
 label:hover{
-    color: yellow
+    color: yellow;
+    background-color: black;
+    letter-spacing: 2px;
+    border-radius: 5px;
 }
