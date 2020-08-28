@@ -75,12 +75,19 @@ input.addEventListener("input", function(e)  {
 //     }
 // })
 
-      passwords.forEach(function(password, index){
-      if(password === text){
-        div.textContent = messages[index];
-        this.value = '';
-    }
-})
+//       passwords.forEach(function(password, index){
+//       if(password === text){
+//         div.textContent = messages[index];
+//         this.value = '';
+//     }
+// })
+
+   passwords.forEach(function(password , index){
+       if(password === text)
+       div.textContent = messages[index];
+       this.value = '';
+
+   })
 
 
 })
