@@ -87,10 +87,16 @@ input.addEventListener("input", function(e)  {
        //ignore high letters and cont all small letters
        div.textContent = messages[index];
        this.value = '';
-
    })
+//////////////////////////////////////////////////////////////////////////
+                //    passwords.forEach((password, index) => {
+                //       passwords[index] = password.toLowerCase();
+// })
 
 
+
+
+////////////////////////////////////////////////////////////////////////
 })
 
 //focus / blur  // / // / // / / // / /   -- - - - -- - - -- -- - - -- - -
