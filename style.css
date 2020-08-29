@@ -35,6 +35,6 @@ label{
 label:hover{
     color: orange;
     /* background-color: black; */
-    letter-spacing: 2px;
+    letter-spacing: 1.5px;
     border-radius: 5px;
 }
